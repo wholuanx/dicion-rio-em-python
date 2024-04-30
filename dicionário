@@ -1,0 +1,4 @@
+dicionario = {"country":"país", "beach": "praia", "computer": "computador", "queen": "rainha", "hair": "cabelo", "party": "festa", "dog": "cachorro/cadela", "cat": "gato/gata", "sunset": "pôr do sol", "lemon": "limão", "love": "amor", "little": "pequeno/pequena", "house": "casa", "moon": "lua", "ocean": "oceano", "brazilian": "brasileiro/brasileira", "poetry": "poesia", "singer": "cantor/cantora", "star": "estrela", "rain": "chuva"}
+
+for chave, valor in dicionario.items():
+    print (f"Chave: {chave}, Valor: {valor}")
